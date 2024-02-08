@@ -1,18 +1,18 @@
-import '../styles/styles.scss'
+import "../styles/styles.scss";
 
 export const metadata = {
-  title: 'Potfolio',
-  description: 'Portfolio',
-}
+  title: "Potfolio",
+  description: "Portfolio",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="pl">
       <body>{children}</body>
     </html>
-  )
+  );
 }

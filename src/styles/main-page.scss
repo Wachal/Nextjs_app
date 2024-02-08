@@ -1,4 +1,4 @@
-.content-holder{
+.content-holder {
   //
 }
 
@@ -15,7 +15,7 @@
     top: 280px;
   }
 
-  &-button{
+  &-button {
     font-size: 16px;
     padding: 10px 15px;
     font-weight: 600;
@@ -25,7 +25,7 @@
     cursor: pointer;
 
     &:focus,
-    &:active{
+    &:active {
       background-color: #cf6d6d;
     }
   }
